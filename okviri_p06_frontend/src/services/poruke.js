@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const osnovniUrl = `https://poruke-api-nb.herokuapp.com/api/poruke`
+const osnovniurl = "http://localhost:3001/api/poruke
+//const osnovniUrl = `https://poruke-api-nb.herokuapp.com/api/poruke`
  
 const dohvatiSve = () => {   
     return axios.get(osnovniUrl);
